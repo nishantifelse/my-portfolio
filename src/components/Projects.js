@@ -1,9 +1,9 @@
 import React from 'react'
-import inotebook from '../projects/inotebook.mov'
-import femur from '../projects/femur.mov'
-import amzoneclone from '../projects/amazonclone.mov'
+import inotebook from '../projects/inotebook.mp4'
+import femur from '../projects/femur.mp4'
+import amzoneclone from '../projects/amazonclone.mp4'
 import authsystem from '../projects/auth-system.mov';
-import youtubeclone from '../projects/youtubeclone.mov'
+import youtubeclone from '../projects/youtubeclone.mp4'
 
 const Projects = () => {
   const projects = [
@@ -12,7 +12,7 @@ const Projects = () => {
       headingProject: 'iNotebook: The Notebook on cloud',
       about: "1.⁠⁠Built a responsive and interactive iNoteBook  Created a fully responsive and server-side rendered iNoteBook application using the MERN stack.  2.⁠⁠Implemented secure APIs and authentication  Developed RESTful APIs and added Authentication & Authorization using JWT, OAuth, and salted password hashing.  3.⁠⁠Applied core web development principles  Strengthened fundamentals by using structured layout, clean styling, and interactive UI components.  4.⁠⁠Note management features Users can add, update, edit, and delete their daily notes within the application. ",
       stackUsed: 'Stack Used: Frontend: React.js; Backend: Node.js, Express.js; Database: MongoDB; Auth: JWT, OAuth, Salted Hashing',
-      gitUrl: '',
+      gitUrl: 'https://github.com/nishantifelse/inotebook',
 
     },
     {
@@ -20,21 +20,21 @@ const Projects = () => {
       headingProject: 'Femur: Web and Design agency',
       about: '1.⁠⁠Built for a website agency Developed a web application specifically designed to support a website agency and its services.2.⁠⁠Customer interaction features  Users can consult with the team, book services, and subscribe to newsletters for regular updates.  3.⁠⁠Smooth animations with GSAP  Integrated GSAP to create interactive and smooth animations across the website.  4.⁠⁠Secure payments with Razorpay  Implemented Razorpay API for a safe and reliable payment gateway experience.',
       stackUsed: 'Stack Used: Frontend: React.js / HTML / CSS / JavaScript;  Animations: GSAP  Payment: Razorpay API; Backend (if applicable): Node.js, Express.js',
-      gitUrl: '',
+      gitUrl: 'https://github.com/nishantifelse/gsap-pro',
     },
     {
       img: authsystem,
       headingProject: 'Authorization and Authentication System',
       about: '1.⁠⁠Built using MERN with secure authentication Developed the web application using the MERN stack and implemented authentication using JWT and salted password hashing for strong security. 2.⁠⁠User account features Users can sign up, log in, and create their accounts smoothly with proper backend validation and secure data handling.3.⁠⁠High-level password security Passwords are stored in hashed + salted form, so even the admin cannot view or retrieve the actual user passwords.',
       stackUsed: 'Stack Used: Frontend: React.js  Backend: Node.js, Express.js  Database: MongoDB. Authentication: JWT, Password Hashing + Salt',
-      gitUrl: '',
+      gitUrl: 'https://github.com/nishantifelse/auth-system-sida',
     },
     {
       img: amzoneclone,
       headingProject: 'Amazone Clone',
       about: '1.⁠⁠Built a responsive Amazon clone Developed a fully responsive and interactive Amazon clone using HTML, CSS, and JavaScript. 2.⁠Managed product and order data Stored all product details in JSON format and used the POST method to send order data securely. 3.⁠⁠Applied core web design principles Strengthened fundamentals through structured layout, clean styling, and interactive UI behavior. 4.⁠⁠Improved frontend development skills Completed JavaScript practice and revised HTML/CSS basics, boosting overall frontend proficiency.',
       stackUsed: 'Stack Used: Frontend: HTML, CSS, JavaScript; Data Handling: JSON ;Methods: POST for order submission',
-      gitUrl: '',
+      gitUrl: 'https://github.com/nishantifelse/nishantifelse-amazon-clone',
     },
     {
       img: youtubeclone,
